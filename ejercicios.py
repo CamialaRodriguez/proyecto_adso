@@ -22,10 +22,5 @@ def registrar_usuario():
     usuarios[nombre] = {"correo": correo, "contraseña": contraseña, "rol": Rol}
     print('¡Registro exitoso!')
 
-    if Rol == 1:
-        iniciar_sesion_administrador()
-    elif Rol == 2:
-        iniciar_sesion_trabajador()
-
 
 
